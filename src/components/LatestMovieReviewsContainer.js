@@ -23,4 +23,8 @@ class LatestMovieReviewsContainer extends React.Component {
       })
 		});
 	}
+
+  render() {
+    return <BookList books={this.state.books} />
+  }
 }
