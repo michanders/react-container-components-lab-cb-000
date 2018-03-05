@@ -1,6 +1,6 @@
 import React from 'react';
 
-class MovieReviews extends React.Component {
+export default class MovieReviews extends React.Component {
   constructor() {
     super();
 
