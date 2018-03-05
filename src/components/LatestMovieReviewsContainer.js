@@ -25,6 +25,10 @@ export default class LatestMovieReviewsContainer extends React.Component {
 	}
 
   render() {
-    return <BookList books={this.state.books} />
+    return (
+      <div className = "latest-movie-reviews">
+        <MovieReviews reviews={this.state.reviews}/>
+      </div>
+    )
   }
 }
